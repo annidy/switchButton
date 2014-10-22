@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:switchbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <com.switchbutton.main.IosSwitchButton.Ios_switchButton
+        android:id="@+id/center_switch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        switchbutton:bmHeight="50dp"
+        switchbutton:bmWidth="150dp"
+        android:layout_centerInParent="true"
+        />
+
+    <com.switchbutton.main.IosSwitchButton.Ios_switchButton
+        android:id="@+id/top_switch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        switchbutton:bmHeight="60dp"
+        android:layout_marginTop="30dp"
+        switchbutton:bmWidth="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.switchbutton.main.IosSwitchButton.Ios_switchButton
+        android:id="@+id/bottom_switch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        switchbutton:bmHeight="30dp"
+        android:layout_marginBottom="30dp"
+        switchbutton:bmWidth="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
