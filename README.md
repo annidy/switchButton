@@ -24,3 +24,8 @@
     加上这句之后别忘记了还要在最顶层的布局上面加上<br>
     xmlns:switchbutton="http://schemas.android.com/apk/res-auto"
 
+#####主程序里面
+在主程序的Oncreate方法里面调用imageInit方法<br>
+
+        
+        topswitchButton.imageInit(this, R.drawable.switch_btn_bg_green, R.drawable.switch_btn_bg_white, R.drawable.switch_btn_normal, R.drawable.switch_btn_pressed);
