@@ -29,3 +29,15 @@
 
         
         topswitchButton.imageInit(this, R.drawable.switch_btn_bg_green, R.drawable.switch_btn_bg_white, R.drawable.switch_btn_normal, R.drawable.switch_btn_pressed);
+        
+当然你也可以这样：<br>
+        
+        private int[] img = new int[]{
+            R.drawable.switch_btn_bg_green,
+            R.drawable.switch_btn_bg_white,
+            R.drawable.switch_btn_normal,
+            R.drawable.switch_btn_pressed
+    };
+        
+        bottomswitchButton.imageInit(this,img);
+
