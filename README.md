@@ -19,7 +19,6 @@ switchButton是根据IOS开关按钮风格做成的基于android 2.2以上的安
             switchbutton:bmHeight="50dp"
             switchbutton:bmWidth="150dp"
             android:layout_centerInParent="true"
-            />
-        
+            />      
     加上这句之后别忘记了还要在最顶层的布局上面加上<br>
     xmlns:switchbutton="http://schemas.android.com/apk/res-auto"
