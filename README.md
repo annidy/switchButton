@@ -40,4 +40,25 @@
     };
         
         bottomswitchButton.imageInit(this,img);
+        
+####其他
+#####你可设置监听以及改变switchButton的状态
+        centerswitchButton.setChecked(false);
+        centerswitchButton.setEnabled(false);
+        centerswitchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(b)
+                    Toast.makeText(MainActivity.this,"checked",Toast.LENGTH_SHORT).show();
+                else
+                    Toast.makeText(MainActivity.this,"UnChecked",Toast.LENGTH_SHORT).show();
+            }
+        });
+                
+                
+####最近更新
+        
+        版本： 1.0
+        更新内容： 仿IOS  switchButton 实现
+        
 
