@@ -1,4 +1,4 @@
-####switchButton简介绍
+####switchButton简介
     switchButton是根据IOS开关按钮风格做成的基于android 2.2以上的安卓按钮
     可以直接通过传入图片的drawable  id  就可以成功的运用
 
